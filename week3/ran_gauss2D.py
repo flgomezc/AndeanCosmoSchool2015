@@ -1,3 +1,8 @@
+# Author: Florian Beutler
+# https://github.com/fbeutler/ran_gauss2D
+# Andean Cosmology School
+# June - 2015
+
 import numpy as np
 import matplotlib.pyplot as pl
 
