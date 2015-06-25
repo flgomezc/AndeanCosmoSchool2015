@@ -1,0 +1,23 @@
+demo3[INFO] 2015-06-25 11:11:55,209: Starting demo script 3 using:
+demo3[INFO] 2015-06-25 11:11:55,209:     - Galaxy is bulge plus disk, flux = 1.0e+06
+demo3[INFO] 2015-06-25 11:11:55,209:        - Bulge is Sersic (n = 3.5, re = 2.30), frac = 0.3
+demo3[INFO] 2015-06-25 11:11:55,209:        - Disk is Sersic (n = 1.5, r0 = 0.85), frac = 0.7
+demo3[INFO] 2015-06-25 11:11:55,209:        - Shape is q,beta (0.73,23.00 deg)
+demo3[INFO] 2015-06-25 11:11:55,209:     - Atmospheric PSF is Kolmogorov with fwhm = 2.10
+demo3[INFO] 2015-06-25 11:11:55,209:        - Shape is e,beta (0.13,0.81 rad)
+demo3[INFO] 2015-06-25 11:11:55,209:     - Optical PSF has defocus = 0.53, astigmatism = (-0.29,0.12),
+demo3[INFO] 2015-06-25 11:11:55,209:           coma = (0.64,-0.33), lambda = 800 nm, D = 4.0 m
+demo3[INFO] 2015-06-25 11:11:55,209:           obscuration linear size = 0.3
+demo3[INFO] 2015-06-25 11:11:55,210:     - pixel scale = 0.23,
+demo3[INFO] 2015-06-25 11:11:55,210:     - WCS distortion = (-0.02,0.01),
+demo3[INFO] 2015-06-25 11:11:55,210:     - Poisson noise (sky level = 2.5e+04, gain = 1.7).
+demo3[INFO] 2015-06-25 11:11:55,210:     - Gaussian read noise (sigma = 0.30).
+demo3[INFO] 2015-06-25 11:11:56,741: Wrote image to 'output/demo3.fits'
+demo3[INFO] 2015-06-25 11:11:56,741: Wrote effective PSF image to 'output/demo3_epsf.fits'
+demo3[INFO] 2015-06-25 11:11:56,741: Wrote optics-only PSF image (Nyquist sampled) to 'output/demo3_opticalpsf.fits'
+demo3[INFO] 2015-06-25 11:11:56,754: HSM reports that the image has observed shape and size:
+demo3[INFO] 2015-06-25 11:11:56,754:     e1 = 0.090, e2 = 0.185, sigma = 9.234 (pixels)
+demo3[INFO] 2015-06-25 11:11:56,754: When carrying out Regaussianization PSF correction, HSM reports
+demo3[INFO] 2015-06-25 11:11:56,754:     e1, e2 = 0.163, 0.230
+demo3[INFO] 2015-06-25 11:11:56,754: Expected values in the limit that noise and non-Gaussianity are negligible:
+demo3[INFO] 2015-06-25 11:11:56,754:     e1, e2 = 0.172, 0.240
